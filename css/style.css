@@ -63,6 +63,9 @@ body {
   margin-right: 30px;
   position: fixed;
 }
+.my-cart{
+  background-color: rgba(245, 253, 245, 0.842);
+}
 .cart-main {
   padding-right: 30px;
 }
