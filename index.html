@@ -24,30 +24,22 @@
 
 <body>
   <header></header>
-  <!-- <main class="main">
-    <div class="search-field">
-      <div class="search-box">
-        <input id="input-field" class="search-field" type="text" />
-        <button type="button" class="btn btn-primary search-button" data-toggle="button" aria-pressed="false"
-          autocomplete="off" id="search-btn" onclick="loadProducts()">
-          Search
-        </button>
-      </div>
-    </div> -->
-
+   <main class="main">
+    
+     <!-- Search area -->
     <div class="input-group w-25 mx-auto mt-5">
       <input type="text" class="form-control "  aria-label="Recipient's username" aria-describedby="button-addon2">
       <button class="btn btn-outline-secondary bg-light text-dark " type="button" id="button-addon2">Search</button>
     </div>
 
-
-
+    <!-- Product show in the ui -->
     <div class="row">
       <div class="col-md-9 col-lg-9 col-sm-7">
         <div id="all-products" class="">
-          <!-- <h1></h1> -->
         </div>
       </div>
+
+      <!-- My-cart part -->
       <div class="col-md-3 col-lg-3 col-sm-5 cart-main">
         <div class="cart" id="my-cart">
           <table class="table">
@@ -61,30 +53,35 @@
               </tr>
             </thead>
             <tbody>
+              <!-- total product to add -->
               <tr>
                 <th>Total Added-Products:</th>
                 <td><span id="total-Products">0</span></td>
                 <td></td>
                 <td></td>
               </tr>
+              <!-- price add -->
               <tr>
                 <th>Price:</th>
                 <td>$ <span id="price">0</span></td>
                 <td></td>
                 <td></td>
               </tr>
+              <!-- delivery-charge -->
               <tr>
                 <th>Delivery-Charge:</th>
                 <td>$ <span id="delivery-charge">20</span></td>
                 <td></td>
                 <td></td>
               </tr>
+              <!-- total-tax -->
               <tr>
                 <th>Total-Tax:</th>
                 <td>$ <span id="total-tax">0</span></td>
                 <td></td>
                 <td></td>
               </tr>
+              <!-- grand total -->
               <tr>
                 <th scope="row">Total</th>
                 <td colspan="2">$ <span id="total">0</span></td>
@@ -92,11 +89,14 @@
               </tr>
             </tbody>
           </table>
+          <!-- buy now  -->
           <div class="parces text-center">
             <button class="btn btn-primary text-center">Buy Now</button>
           </div>
         </div>
       </div>
+
+
     </div>
   </main>
   <footer></footer>
